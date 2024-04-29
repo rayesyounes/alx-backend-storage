@@ -2,7 +2,7 @@
 """ A script that that lists all documents in a collection"""
 
 def list_all(mongo_collection):
-
+    """ A script that that lists all documents in a collection"""
     docs = []
     for doc in mongo_collection.find():
         if doc:
